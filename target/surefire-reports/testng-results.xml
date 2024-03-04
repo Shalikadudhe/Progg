@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-03-04T18:15:11 IST" name="Suite" finished-at="2024-03-04T18:17:04 IST" duration-ms="112482">
+    <groups>
+    </groups>
+    <test started-at="2024-03-04T18:15:11 IST" name="Test" finished-at="2024-03-04T18:17:04 IST" duration-ms="112482">
+      <class name="com.Tests.BeautyTest">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.Tests.BeautyTest@7e11ab3d]" started-at="2024-03-04T18:16:05 IST" name="setUp" finished-at="2024-03-04T18:16:11 IST" duration-ms="6111" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="get_lipstick_Brand_Name()[pri:0, instance:com.Tests.BeautyTest@7e11ab3d]" started-at="2024-03-04T18:16:11 IST" name="get_lipstick_Brand_Name" finished-at="2024-03-04T18:16:42 IST" duration-ms="31630" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- get_lipstick_Brand_Name -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.Tests.BeautyTest@7e11ab3d]" started-at="2024-03-04T18:16:42 IST" name="tearDown" finished-at="2024-03-04T18:16:47 IST" duration-ms="4788" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.Tests.BeautyTest@7e11ab3d]" started-at="2024-03-04T18:16:47 IST" name="setUp" finished-at="2024-03-04T18:17:03 IST" duration-ms="15617" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="onTestFailure()[pri:0, instance:com.Tests.BeautyTest@7e11ab3d]" started-at="2024-03-04T18:17:03 IST" name="onTestFailure" finished-at="2024-03-04T18:17:03 IST" duration-ms="6" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- onTestFailure -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.Tests.BeautyTest@7e11ab3d]" started-at="2024-03-04T18:17:03 IST" name="tearDown" finished-at="2024-03-04T18:17:04 IST" duration-ms="1218" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.Tests.BeautyTest -->
+      <class name="com.Tests.HomeTest">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.Tests.HomeTest@4a8b5227]" started-at="2024-03-04T18:15:12 IST" name="setUp" finished-at="2024-03-04T18:15:30 IST" duration-ms="18475" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="checkSearchFunctionalityIsEnabled()[pri:0, instance:com.Tests.HomeTest@4a8b5227]" started-at="2024-03-04T18:15:30 IST" name="checkSearchFunctionalityIsEnabled" finished-at="2024-03-04T18:15:52 IST" duration-ms="21434" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkSearchFunctionalityIsEnabled -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.Tests.HomeTest@4a8b5227]" started-at="2024-03-04T18:15:52 IST" name="tearDown" finished-at="2024-03-04T18:15:53 IST" duration-ms="734" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.Tests.HomeTest@4a8b5227]" started-at="2024-03-04T18:15:53 IST" name="setUp" finished-at="2024-03-04T18:16:04 IST" duration-ms="11643" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="onTestFailure()[pri:0, instance:com.Tests.HomeTest@4a8b5227]" started-at="2024-03-04T18:16:04 IST" name="onTestFailure" finished-at="2024-03-04T18:16:04 IST" duration-ms="5" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- onTestFailure -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.Tests.HomeTest@4a8b5227]" started-at="2024-03-04T18:16:04 IST" name="tearDown" finished-at="2024-03-04T18:16:04 IST" duration-ms="206" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.Tests.HomeTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

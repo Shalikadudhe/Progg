@@ -1,0 +1,10 @@
+com\util\CaptureScreenShot.class
+com\uikeywords\UIKeywords.class
+com\util\WaitFor.class
+com\utility\PropertiesUtility.class
+com\util\EnvironmentUtil.class
+com\configure\TestBase.class
+com\pages\HomePage.class
+com\util\PropUtil.class
+com\pages\BeautyPage.class
+com\utility\Environment.class
