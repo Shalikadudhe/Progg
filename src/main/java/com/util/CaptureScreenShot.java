@@ -5,14 +5,10 @@ import java.io.File;
 import java.io.IOException;
 import java.util.Calendar;
 import java.util.Date;
-
 import javax.imageio.ImageIO;
-
 import org.testng.ITestListener;
 import org.testng.ITestResult;
-
 import com.uikeywords.UIKeywords;
-
 import ru.yandex.qatools.ashot.AShot;
 import ru.yandex.qatools.ashot.Screenshot;
 import ru.yandex.qatools.ashot.shooting.ShootingStrategies;
@@ -33,9 +29,11 @@ public class CaptureScreenShot implements ITestListener {
 		BufferedImage image = sc.getImage();
 
 		try {
-
+			
 			ImageIO.write(image, "jpg", new File(basePthScreenshot + "/screenshots/" + "failshot_"
-					+ this.getClass().getTypeName() + " _" + timestamp + "_" + ".jpg"));
+					+ 
+					 //this.getClass().getTypeName()
+					 " _" + timestamp + "_" + ".jpg"));
 
 		} catch (IOException e) {
 			e.printStackTrace();

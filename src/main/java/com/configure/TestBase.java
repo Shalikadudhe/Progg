@@ -39,7 +39,7 @@ public class TestBase {
 	@Test
 	public void onTestFailure() {
 		CaptureScreenShot cs = new CaptureScreenShot();
-		Assert.assertEquals(false, false);
+		Assert.assertEquals(false, true);
 	}
 
 	@AfterMethod
