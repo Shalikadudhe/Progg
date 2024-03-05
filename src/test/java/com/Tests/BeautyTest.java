@@ -29,7 +29,7 @@ public class BeautyTest extends TestBase {
 		for (WebElement ele : li) {
 			String actual = ele.getText();
 			if(actual.equalsIgnoreCase("Lakme")) {
-			log.info("Brand name is : " + actual);
+		     //	log.info("Brand name is : " + actual);
 			Assert.assertEquals(actual, "Lakme", "Actual and expected are  matching..... ");
 		}}
 
